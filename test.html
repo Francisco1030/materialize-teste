@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>CRUD</title>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+        <!-- <link rel="stylesheet" href="css/materialize.css"> -->
+        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+    
+    <nav>
+        <div class="nav-wrapper light-blue darken-4">
+            <!-- <a href="#" class="brand-logo"><img src="img/logo.png"/></a> -->
+            <a href="#" data-activates="menu-mobile" class="button-collapse">
+                <i class="material-icons">menu</i>
+            </a>
+
+            <!-- <ul class="right hide-on-med-and-down">
+                <li><a class='dropdown-trigger' data-target='dropdown1'>Pessoa<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class='dropdown-trigger' data-target='dropdown2'>Endereço<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul> -->
+            <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Angular</a></li>
+                    <li><a href="#">Ionic</a></li>
+                    <li><a href="#">TypeScript</a></li>
+                    <li><a href="#">Cordova</a></li>
+            </ul>
+
+            <ul class="side-nav" id="menu-mobile">
+                    <li><a href="#">Angular</a></li>
+                    <li><a href="#">Ionic</a></li>
+                    <li><a href="#">TypeScript</a></li>
+                    <li><a href="#">Cordova</a></li>
+            </ul>
+        </div>
+
+    <!-- <ul id='dropdown1' class='dropdown-content'>  
+        <li><a href="#!"><span class="blue-text text-darken-2">Cadastrar</span></a></li>
+        <li><a href="#!">Listar</a></li>
+    </ul>
+    <ul id='dropdown2' class='dropdown-content'>
+        <li><a href="#!">Cadastrar</a></li>
+        <li><a href="#!">Listar</a></li>
+    </ul> -->
+
+    </nav> 
+
+    
+    <div class="container">    
+        
+        <div class="row">
+            <div class="col s12 m12">
+              <div class="card">
+                <div class="card-content">
+                <span class="card-title blue-text text-darken-2 center-align"><h4>Cadastro de Cliente</h4> </span>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+
+        <!-- <script src="js/JQuery.js" type="text/javascript"></script>
+        <script src="js/materialize.min.js" type="text/javascript"></script> -->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+        
+        <script>              
+            // $('.dropdown-trigger').dropdown({
+            //     inDuration: 300,
+            //     outDuration: 225,
+            //     hover: true, 
+            //     coverTrigger: false, 
+            //     alignment: 'center'
+            // });
+            $(function(){
+             $(".button-collapse").sideNav();
+            });
+        </script>
+    </body>
+
+</html>
